@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "about finiding and displaying recipes",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "fraction": "^0.2.0",
+    "fractional": "^1.0.0",
+    "fractions": "^1.0.2",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "@types/core-js": "^2.5.8",
+    "parcel": "^2.11.0"
+  }
+}
