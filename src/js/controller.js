@@ -89,9 +89,7 @@ const controlSearchResults = async () => {
     paginationView.render(model.state.search);
   } catch (err) {}
 };
-const sayHello = function () {
-  console.log('welcome');
-};
+
 const controlAddBookmark = function () {
   if (!model.state.recipe.bookmarked) model.addBookmark(model.state.recipe);
   else model.deleteBookmark(model.state.recipe.id);
@@ -107,7 +105,6 @@ const init = () => {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  sayHello();
 };
 
 init();
