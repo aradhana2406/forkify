@@ -104,7 +104,7 @@ const init = () => {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('welcome here');
+  console.log('welcome here mom');
 };
 
 init();
